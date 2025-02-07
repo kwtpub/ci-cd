@@ -28,7 +28,7 @@ const Console = ({color,...props}) => {
     const [lines,setLines] = useState(['C/users/KWTPUB>'])
 
     const onKeyPress = e => {
-        if (e.charCode == 13) {
+        if (e.charCode === 13) {
             setLines([...lines,'C/users/KWTPUB>' ])
         }
     }

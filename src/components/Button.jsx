@@ -34,9 +34,6 @@ ${props => props.primary && css`
     background: ${props => props.background || 'white'}
     `}
 `
-const Lbutt = styled(StyleButton)`
-font-size:34px;
-`
 
 
 const Button = (props) => {
