@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 
-const Global = createGlobalStyle`
+const Global = styled.createGlobalStyle`
 *  {
 margin:0;
 padding: 0;
