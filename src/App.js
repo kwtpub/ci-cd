@@ -19,7 +19,7 @@ function App() {
       <Flex justify={'center'}>
         <Title color={'green'} >Console cmd 2024. KWTPUB</Title>
       </Flex>
-
+      <span>1</span>
       <Flex direction={'column'}>
         <Console color={'green'}/>
         <Button primary background={'red'} color={'green'} align={'flex-end'}>Отправить</Button>
