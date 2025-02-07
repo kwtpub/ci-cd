@@ -13,9 +13,9 @@ background: black;
 `
 
 function App() {
-  const [state,setState] = useState(0)
 
-  const increment = setState(prev => prev + 1)
+
+
   return (
 
     <AppWraper>
@@ -23,10 +23,10 @@ function App() {
       <Flex justify={'center'}>
         <Title color={'green'} >Console cmd 2024. KWTPUB</Title>
       </Flex>
-      <span>{state}</span>
+
       <Flex direction={'column'}>
         <Console color={'green'}/>
-        <Button onClick={increment} primary background={'red'} color={'green'} align={'flex-end'}>Отправить</Button>
+        <Button  primary background={'red'} color={'green'} align={'flex-end'}>Отправить</Button>
       </Flex>
       
     </AppWraper>
