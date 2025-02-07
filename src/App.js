@@ -22,7 +22,7 @@ function App() {
 
       <Flex direction={'column'}>
         <Console color={'green'}/>
-        <Button primary background={'black'} color={'green'} align={'flex-end'}>Отправить</Button>
+        <Button primary background={'red'} color={'green'} align={'flex-end'}>Отправить</Button>
       </Flex>
       
     </AppWraper>
